@@ -1,0 +1,133 @@
+body{
+    background-color: #f0f2f5;
+}
+.content-header {
+    display:flex;
+    background-color:#ffffff;
+    height: 56px;
+    box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.5);
+}     
+.content-logo-area{
+    margin: 8px;
+}
+.content-icon-list{
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 40%;
+    display: flex; 
+    list-style-type: none;
+    float: left;
+}
+.content-logo-img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  40px;       /* ※縦横を同値に */
+    height: 40px;       /* ※縦横を同値に */
+}
+.content-icon{
+    margin: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 20%;
+}
+.content-icon:hover{
+    background-color:#eff0f0;
+}
+.content-body-logo{
+    background: linear-gradient(#05FBFF, #1E00FF);
+}
+.content-body-img{
+    width: 810px;
+    height: 350px;
+    margin: 0 auto;
+}
+.content-icon-img{
+    border-radius: 50%;  /* 角丸半径を50%にする(=円形にする) */
+    width:  170px;       /* ※縦横を同値に */
+    height: 170px;       /* ※縦横を同値に */
+    position: relative;
+    top: -160px;
+    left: 630px;
+    border: 2px solid #ffffff;
+}
+.content-icon-name{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align:center;
+    display: block;
+    margin-left: 50%;
+    transform: translate(-50%, -265%)
+}
+.content-comment-area{
+    font-size: normal;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    margin-right: 50%;
+    transform: translate(50%, -530%);
+    font-weight: normal;
+    color: #65676b;
+}
+.content-center{
+    font-size: 1.5rem;
+    line-height: 100%;
+    border-right: 1px solid #ffffff;
+    margin-right: 50%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.profile-word-right{
+    padding: 1rem;
+    width: 60% ;
+    display:block;
+}
+.content-word{
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    color: #65676b;
+    font-weight: bold;
+    margin: 0 auto;
+}
+.content-word:hover{
+    background-color:#eff0f0;
+    border-radius:10px;
+}
+.profile-word-left{
+    width: 40%;
+    list-style: none;
+    border-right: 1px solid #b6b6b6;
+    margin: 0px ;
+    padding: 20px;
+}
+.profile-area{
+    display:flex;
+    /* border: 1px solid #a9a9a9; */
+    background-color: #fff;
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 10px;
+    padding: 5px;
+    justify-content: center;
+}
+.panel-group{
+    border-top:none;
+    padding-left: 10px;
+    color: #65676b;
+    font-weight: bold;
+    margin: 0 auto;
+    line-height: 4;
+}
+.panel{
+    display: none;
+    justify-content: center;
+}
+.content-word.is-active{
+    background:rgb(0, 128, 248);
+    color:#FFF;
+    transition: all 0.2s ease-out;
+}
+.panel.is-show{
+    display: block;
+}
+
